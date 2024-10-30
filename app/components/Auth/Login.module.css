@@ -1,0 +1,130 @@
+.container {
+    height: 100vh;
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+}
+
+.backgroundContainer {
+    position: relative;
+    padding: 20px;
+}
+
+.background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.gr{
+    gap: 64px;
+}
+.lgForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #FFFFFF;
+    margin-left: 45px;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-left: 30px;
+}
+
+.loginForm .logo {
+    margin-bottom: 20px;
+}
+.title{
+    color: black;
+    font-weight: bold;
+}
+.gridItem{
+    width: 100%;
+  }
+.logoComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 507px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+  
+.infoComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.loginText{
+    color: #0070f3;
+    font-size: 16px;
+    font-weight: bold;
+}
+.rememberForgot {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.forgotPassword {
+    
+    display: block;
+    color: #0070f3;
+    text-decoration: none;
+}
+.flexSpace {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.flexItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.link {
+    cursor: pointer;
+    color: #0070f3;
+    font-size: 14px;
+    text-transform: none;
+}
+.rememberTxt {
+    color: black;
+    font-size: 14px;
+}
+
+
+/* Diolog------------------------------ */
+.diologTitle{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+.titleComponent{
+    text-align: center;
+    width: 570px;
+}
+.diologForm{
+    width: 450px;
+    height: 44px;
+    text-align: center;
+    font-size: 12px;
+}
+.noneCaseBtn{
+    text-transform: none;
+}
+.btnComponent button{
+    margin-top: 10px;
+    text-transform: none;
+}
